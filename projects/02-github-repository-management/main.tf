@@ -7,7 +7,9 @@ terraform {
   }
 }
 
-provider "github" {}
+provider "github" {
+  owner = "hemasatyapriya-12"
+}
 
 resource "github_repository" "devops_repo" {
   for_each = var.repositories
