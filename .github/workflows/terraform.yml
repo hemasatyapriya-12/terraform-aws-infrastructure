@@ -19,6 +19,10 @@ jobs:
     name: Terraform
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: projects/02-github-repository-management
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
