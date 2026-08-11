@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# variable files containing sensitive data
+*.tfvars
+*.tfvars.json
+
+# terraform plan
+*.tfplan
+
+# local environment files
+.env
